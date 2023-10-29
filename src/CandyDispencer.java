@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CandyDispenser {
+public class CandyDispencer {
     private List<CandyObserver> observers = new ArrayList<>();
 
     public void registerObserver(CandyObserver observer) {
@@ -23,3 +23,4 @@ public class CandyDispenser {
             observer.update(candyType);
         }
     }
+}

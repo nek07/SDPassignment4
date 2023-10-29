@@ -9,4 +9,5 @@ public class User implements CandyObserver {
     public void update(String candyType) {
         System.out.println(name + " received " + candyType + " candy.");
     }
+
 }
